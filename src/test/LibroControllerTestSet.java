@@ -1,6 +1,6 @@
 package test;
 
-import controllers.LibroController;
+import controllers.*;
 import models.Book;
 import validaciones.ValidacionesLibro;
 
