@@ -3,12 +3,12 @@ package models;
 public class Book {
     private String titulo;
     private String autor;
-    private int anio;
+    private int year;
 
-    public Book(String titulo, String autor, int anio) {
+    public Book(String titulo, String autor, int year) {
         this.titulo = titulo;
         this.autor = autor;
-        this.anio = anio;
+        this.year = year;
     }
 
     public String getTitulo() {
@@ -19,12 +19,12 @@ public class Book {
         return autor;
     }
 
-    public int getAnio() {
-        return anio;
+    public int getyear() {
+        return year;
     }
 
     @Override
     public String toString() {
-        return titulo + " - " + autor + " (" + anio + ")";
+        return titulo + " - " + autor + " (" + year + ")";
     }
 }

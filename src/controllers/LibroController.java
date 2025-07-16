@@ -10,8 +10,7 @@ public class LibroController {
             public int compare(Book b1, Book b2) {
                 int compaTitulo = b2.getTitulo().compareTo(b1.getTitulo());
                 if (compaTitulo != 0) return compaTitulo;
-
-                return Integer.compare(b1.getAnio(), b2.getAnio());
+                return Integer.compare(b1.getyear(), b2.getyear());
             }
         };
 

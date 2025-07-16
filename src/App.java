@@ -38,7 +38,7 @@ public class App {
         Set<Book> procesados = controller.procesarLibros(libros);
 
         for (Book libro : procesados) {
-            System.out.println(libro.getTitulo() + " - " + libro.getAutor() + " (" + libro.getAnio() + ")");
+            System.out.println(libro.getTitulo() + " - " + libro.getAutor() + " (" + libro.getyear() + ")");
         }
 
     }
